@@ -1,0 +1,29 @@
+/* Chatbot.css */
+
+.chatbot-container {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    transition: height 0.3s ease-in-out;
+  }
+  
+  .chatbot-container.closed {
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .chat-launcher {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chat-launcher:hover {
+    background-color: #0056b3;
+  }
+  
